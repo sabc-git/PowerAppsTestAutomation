@@ -76,10 +76,7 @@ namespace Microsoft.PowerApps.TestAutomation.Browser
 
         public  virtual FirefoxOptions ToFireFox()
         {
-            var options = new FirefoxOptions()
-            {
-                UseLegacyImplementation = false
-            };
+            var options = new FirefoxOptions();
 
             return options;
         }
